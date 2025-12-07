@@ -10,7 +10,7 @@ int main()
 	ofile.open("data2.txt");
 	if ( ! ofile.is_open())
 	{
-		cout << "文件打开失败" << endl;
+		cout << "文件打开成功？了吗孩子你再看看你后面呢" << endl;
 		return 0;
 	}
 	srand(int(time(0)));
